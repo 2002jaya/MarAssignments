@@ -1,0 +1,21 @@
+a=[]
+b=[]
+m=int(input('Enter rows: '))
+n=int(input('Enter columns: '))
+for i in range(m):
+    r=[]
+    for j in range(n):
+        k=int(input())
+        r.append(k)
+    a.append(r)
+for i in range (m):
+    r=[]
+    for j in range(n):
+        k=int(input())
+        r.append(k)
+    b.append(r)
+for i in range(m):
+    for j in range(n):
+        print(a[i][j]-b[i][j],end=' ')
+    print('')
+        
