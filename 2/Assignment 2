@@ -1,0 +1,41 @@
+a=[]
+b=[]
+m=int(input('enter a rows: '))
+n=int(input('enter a columns: '))
+p=int(input('enter p rows: '))
+q=int(input('enter q columns: '))
+if n!=p:
+    print('Matrix multiplication not possible')
+else:
+    print('Matrix multiplication possible')
+    for i in ramge(m):
+        r=[]
+        for j in range(n):
+            k=int(input())
+            r.append(k)
+        a.append(r)
+    for i in range(n):
+        r=[]
+        for j in range(q):
+            k=int(input())
+            r.append(k)
+        b.append(r)
+    c=[]
+    for i in range(m):
+        r=[]
+        for j in range(q):
+            r.append(0)
+        c.append(r)
+    for i in range(len(a)):
+        for j in range(len(b[0])):
+             for k in range(len(b)):
+                 c[i][j]+=a[i][k]*b[k][j]
+    for i in range(m):
+        for j in range(q):
+            print(c[i][j],end=' ')
+        print('')
+
+
+                 
+                 
+          
