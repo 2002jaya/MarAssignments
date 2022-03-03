@@ -1,0 +1,9 @@
+t1=('bca','mpcs','bcom')
+t2=('ba','bba')
+t3=t1+t2
+print(t3)
+
+another way
+t1=(0,1,2,3,4)
+t2=(5,6,7,8,9)
+print(t1+t2)
