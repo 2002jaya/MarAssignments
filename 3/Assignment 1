@@ -1,0 +1,6 @@
+l=[i for i in range(10,0,-1)]
+print(l)
+
+another way
+l=[10-i for i in range(0,10)]
+print(l)
