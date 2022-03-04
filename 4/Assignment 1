@@ -1,0 +1,11 @@
+n=int(input())
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+c=[]
+for i in l:
+    if l.count(i)>1:
+        if i not in c:
+           c.append(i)
+print(len(c))
